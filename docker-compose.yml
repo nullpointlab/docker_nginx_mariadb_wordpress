@@ -14,7 +14,7 @@ services:
       - '${HTTPS_HOST_PORT_80}:80'
       - '${HTTPS_HOST_PORT_443}:443'
     environment:
-      DOMAINS: 'nontitle.xyz -> http://dockerhost:${NGINX_HOST_PORT_8000}/' 
+      DOMAINS: '${DOMIAN_NAME} -> http://dockerhost:${NGINX_HOST_PORT_8000}/' 
 # Test-signed certificate
       STAGE: 'staging'
 # Self-signed certificate
