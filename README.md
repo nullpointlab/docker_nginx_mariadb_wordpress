@@ -11,13 +11,5 @@ nginx:stable(https://hub.docker.com/_/nginx)
 wordpress:php7.3-fpm(https://hub.docker.com/_/wordpress)
 mariadb:latest(https://hub.docker.com/_/mariadb)
 
-## Contribution
-
-## Licence
-[MIT](https://github.com/SteveLTN/https-portal)
-[MIT](https://hub.docker.com/_/nginx)
-[MIT](https://hub.docker.com/_/wordpress)
-[MIT](https://hub.docker.com/_/mariadb)
-
 ## Author
 [nosuke](https://github.com/nullpointlab)
