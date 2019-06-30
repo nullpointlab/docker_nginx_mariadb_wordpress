@@ -5,6 +5,7 @@ version: '3'
 services:
 # free HTTPS compatible
 # https://letsencrypt.org/
+# https://github.com/SteveLTN/https-portal
   https-portal:
     image: steveltn/https-portal:1
     container_name: https
